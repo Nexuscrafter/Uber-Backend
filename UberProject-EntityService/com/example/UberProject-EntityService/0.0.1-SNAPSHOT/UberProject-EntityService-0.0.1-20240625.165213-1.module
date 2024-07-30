@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "UberProject-EntityService",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "UberProject-EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "url": "UberProject-EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "size": 13405,
+          "sha512": "fd18f37547b1e2f62ee289b61ddba4095d03f3cb59106faa4ae592301d34f532b5ec64c845ab5463529f4ebd05d42c40b60c1c5710ce3e267fc1e3aa7189fd81",
+          "sha256": "10969953b225f94ad1b7d10c3fdfe53afe9968da41cb0c0f522840b22c0e6b0f",
+          "sha1": "05d7126e07e396dd50f55b57693ee32791fb80f6",
+          "md5": "2d5a7cbc3c1397749afb858f5d54296e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.3.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.10.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "10.10.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "com.mysql",
+          "module": "mysql-connector-j",
+          "version": {
+            "requires": "8.3.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "UberProject-EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "url": "UberProject-EntityService-0.0.1-SNAPSHOT-plain.jar",
+          "size": 13405,
+          "sha512": "fd18f37547b1e2f62ee289b61ddba4095d03f3cb59106faa4ae592301d34f532b5ec64c845ab5463529f4ebd05d42c40b60c1c5710ce3e267fc1e3aa7189fd81",
+          "sha256": "10969953b225f94ad1b7d10c3fdfe53afe9968da41cb0c0f522840b22c0e6b0f",
+          "sha1": "05d7126e07e396dd50f55b57693ee32791fb80f6",
+          "md5": "2d5a7cbc3c1397749afb858f5d54296e"
+        }
+      ]
+    }
+  ]
+}
