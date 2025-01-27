@@ -103,7 +103,7 @@ This project is a backend system for an Uber-like ride-hailing application built
    ```bash  
    git clone <repository-url>  
    cd uber-backend  
-
+2. Start Mysql, Redis and Kafka server
 
 ### **Key API Endpoints**
 ## Auth Service
