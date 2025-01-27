@@ -104,6 +104,8 @@ This project is a backend system for an Uber-like ride-hailing application built
    git clone <repository-url>  
    cd uber-backend  
 2. Start Mysql, Redis and Kafka server
+3. Update the common library which consist of all the models/entities
+4. Enable Spring Eureka server and start all the other microservices
 
 ### **Key API Endpoints**
 ## Auth Service
@@ -124,6 +126,6 @@ Redis enables quick driver location updates and ride allocations.
 3. Fault Tolerance
 Kafka’s message retention and Redis persistence ensure high availability even during failures.
 # 📈 Future Enhancements
-Implement dynamic surge pricing.
-Introduce multi-language support for global users.
-Integrate a payment gateway for secure and seamless transactions.
+1. Implement dynamic surge pricing.
+2. Introduce multi-language support for global users.
+3. Integrate a payment gateway for secure and seamless transactions.
