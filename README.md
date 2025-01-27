@@ -104,4 +104,26 @@ This project is a backend system for an Uber-like ride-hailing application built
    git clone <repository-url>  
    cd uber-backend  
 
-./gradlew flywayMigrate  
+
+### **Key API Endpoints**
+## Auth Service
+POST /register - Register a new user.
+POST /login - Authenticate and retrieve a JWT.
+# Booking Service
+POST /request-ride - Request a ride.
+Driver Location Service
+POST /update-location - Update driver location.
+GET /nearby-drivers - Retrieve nearby drivers based on a given location.
+Notification Service
+WebSocket /notifications - Subscribe to real-time updates.
+💡 Advantages of Design
+1. Scalability
+The use of Redis and Kafka ensures the system can handle a growing user base with high performance.
+2. Low Latency
+Redis enables quick driver location updates and ride allocations.
+3. Fault Tolerance
+Kafka’s message retention and Redis persistence ensure high availability even during failures.
+📈 Future Enhancements
+Implement dynamic surge pricing.
+Introduce multi-language support for global users.
+Integrate a payment gateway for secure and seamless transactions.
